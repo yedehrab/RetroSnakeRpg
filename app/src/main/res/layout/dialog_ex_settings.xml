@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rl_settings"
+    android:layout_height="match_parent">
+
+    <!-- indeterminate: Otomatik olarak ilerler (yükleme ekranları için falan-->
+    <!-- thumb: Yuvarlak yerine istediğimiz resmi koymak için -->
+    <!-- progressDrawable: İlerlemeyi özel resimle belirtmek için -->
+    <SeekBar
+        android:id="@+id/sb_length"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_snakeLength"
+        android:layout_centerHorizontal="true"
+        android:progress="2"
+        android:max="5"
+        android:thumb="@drawable/thumb_snake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_snakeLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_topDialogText"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Yılan Uzunluğu (4)"
+        android:textSize="17sp" />
+
+    <SeekBar
+        android:id="@+id/sb_blockSize"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_blockSize"
+        android:layout_centerHorizontal="true"
+        android:max="5"
+        android:progress="2"
+        android:thumb="@drawable/thumb_snake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_blockSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_length"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogTexts"
+        android:text="@string/txt_size_of_block"
+        android:textSize="17sp" />
+
+    <SeekBar
+        android:id="@+id/sb_fps"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_fps"
+        android:layout_centerHorizontal="true"
+        android:max="5"
+        android:progress="2"
+        android:thumb="@drawable/thumb_snake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_blockSize"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogTexts"
+        android:text="Oyun Hızı (10)"
+        android:textSize="17sp" />
+
+</RelativeLayout>

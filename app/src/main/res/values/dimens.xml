@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margins_topRightButton">44dp</dimen>
+    <dimen name="marginTop_title">92dp</dimen>
+
+    <dimen name="marginTop_llButtons">35dp</dimen>
+    <dimen name="marginBottom_llButtons">55dp</dimen>
+    <dimen name="marginTop_betweenLlButtons">-31dp</dimen>
+
+    <!-- Buton içi özellikler -->
+    <dimen name="paddingBottom_buttons">5dp</dimen>
+    <dimen name="text_size_buttons">21sp</dimen>
+
+    <dimen name="marginTop_topDialogText">21dp</dimen>
+    <dimen name="marginTop_betweenDialogTexts">21dp</dimen>
+    <dimen name="marginTop_dialogTitleButton">21dp</dimen>
+    <dimen name="marginTop_topDialogButton">-21dp</dimen>
+    <dimen name="marginTop_betweenDialogButtons">-37dp</dimen>
+
+    <dimen name="height_dialogControl">270dp</dimen>
+</resources>

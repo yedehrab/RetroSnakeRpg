@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RetroSnakeRpg</string>
+
+    <!-- Buton Metinleri -->
+    <string name="new_game">New Game</string>
+    <string name="game_modes">Oyun Modları</string>
+    <string name="options">Ayarlar</string>
+
+</resources>

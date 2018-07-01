@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_sounds"
+    android:id="@+id/rlSoundsDialog">
+
+
+    <Button
+        android:id="@+id/btnSoundsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button_aqua"
+        android:clickable="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:text="@string/sounds"
+        android:textAlignment="center"
+        android:textColor="@color/txt_aqua_button"
+        android:textSize="@dimen/text_size_buttons"
+        android:layout_marginTop="@dimen/marginTop_dialogTitleButton" />
+
+    <ToggleButton
+        android:id="@+id/tbNoSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSoundsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_topDialogButton"
+        android:background="@drawable/bg_button_purple"
+        android:checked="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/no_sound"
+        android:textOn="@string/no_sound"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbClassicalSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbNoSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/classic_sounds"
+        android:textOn="@string/classic_sounds"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbRetroSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbClassicalSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/retro_sounds"
+        android:textOn="@string/retro_sounds"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbGunSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbRetroSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/gun_sounds"
+        android:textOn="@string/gun_sounds"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbHorrorSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbGunSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/horror_sounds"
+        android:textOn="@string/horror_sounds"
+        android:textSize="@dimen/text_size_buttons" />
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_sounds"
+    android:id="@+id/rlThemeDialog">
+
+
+    <Button
+        android:id="@+id/btnThemasTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button_aqua"
+        android:clickable="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:text="@string/themes"
+        android:textAlignment="center"
+        android:textColor="@color/txt_aqua_button"
+        android:textSize="@dimen/text_size_buttons"
+        android:layout_marginTop="@dimen/marginTop_dialogTitleButton" />
+
+    <ToggleButton
+        android:id="@+id/tbDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnThemasTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_topDialogButton"
+        android:background="@drawable/bg_button_purple"
+        android:checked="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/default_theme"
+        android:textOn="@string/default_theme"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbDarkness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbDefault"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/darkness"
+        android:textOn="@string/darkness"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbDarkness"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/light_theme"
+        android:textOn="@string/light_theme"
+        android:textSize="@dimen/text_size_buttons"  />
+
+    <ToggleButton
+        android:id="@+id/tbAqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbLight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/aqua_theme"
+        android:textOn="@string/aqua_theme"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbPurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbAqua"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/purple_theme"
+        android:textOn="@string/purple_theme"
+        android:textSize="@dimen/text_size_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbHorrorTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbPurple"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/horror_theme"
+        android:textOn="@string/horror_theme"
+        android:textSize="@dimen/text_size_buttons" />
+
+</RelativeLayout>

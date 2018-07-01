@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">RetroSnakeRpg</string>
+
+
+    <!-- MainActivity metinleri -->
+
+    <string name="txt_size_of_block"> Ekranın görüntü boyutu (%1$s)</string>
+    <!-- Oyun büyüklüğü metinleri -->
+    <string name="txt_block_very_small"> Çok Küçük </string>
+    <string name="txt_block_small">Küçük</string>
+    <string name="txt_block_normal">Normal</string>
+    <string name="txt_block_large">Büyük</string>
+    <string name="txt_block_very_large">Çok Büyük</string>
+    <string name="txt_block_extremely_large">Aşırı Büyük</string>
+
+    <!-- Tam Ekran Oyun Aktivitesinin Metinleri (SnakeActivity2) -->
+    <string name="message_paused"> Başlamak için herhangi bir yere dokunun </string>
+
+    <!-- Buton Metinleri -->
+    <string name="new_game">Yeni Oyun</string>
+    <string name="game_modes">Oyun Modları</string>
+    <string name="options">Ayarlar</string>
+    <string name="classic_modes">Klasik Modlar</string>
+
+    <!-- Ayarlar Buton İsimleri -->
+    <string name="musics">Müzikler</string>
+    <string name="no_music">Müzik Yok</string>
+    <string name="ferambie">Ferambie</string>
+    <string name="horror_music">Ürkütücü Ses</string>
+
+    <string name="sounds"> Sesler </string>
+    <string name="no_sound">Ses Yok</string>
+    <string name="classic_sounds">Klasik Sesler</string>
+    <string name="retro_sounds">Atari Sesleri</string>
+    <string name="gun_sounds">Silah Sesleri</string>
+    <string name="horror_sounds">Korku Sesleri</string>
+
+    <string name="controls">Kontroller</string>
+    <string name="button">Buton</string>
+    <string name="swipe">Kaydırma</string>
+
+    <string name="themes">Temalar</string>
+    <string name="default_theme">Varsayılan</string>
+    <string name="darkness">Karanlık</string>
+    <string name="light_theme">Aydınlık</string>
+    <string name="aqua_theme">Aqua</string>
+    <string name="purple_theme">Mor</string>
+    <string name="horror_theme">Korku</string>
+
+    <!-- Klasik mod buton isimleri -->
+    <string name="game_mod_frame"> Çerçeve </string>
+    <string name="shrink_snake">Küçülen Yılan</string>
+    <string name="more_feed_types">Fazla Yem Tipi</string>
+    <string name="more_feed">Fazla Yem</string>
+
+</resources>

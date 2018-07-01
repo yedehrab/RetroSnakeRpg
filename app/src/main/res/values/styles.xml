@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="gameTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:colorAccent">@color/light_pink</item>
+    </style>
+
+    <style name="FadeDialog">
+        <item name="android:windowEnterAnimation">@anim/fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_fast</item>
+    </style>
+
+</resources>
